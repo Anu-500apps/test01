@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <center><h1>This is Form</h1>
+         <p id="anu"></p>
+        <form onsubmit="myFunction(anu1,anu2)">
+            <label for="name">Name:</label>
+            <input type="text" id="anu1" name="name" placeholder="enter name"  required><br><br>
+            <lable for="pwd" >Password:</lable>
+            <input type="password" id="anu2" name="password" placeholder="enter number" required><br><br>
+           <!-- <button type="button" value="Submit" onclick="myFunction()">click here</button>-->
+           <button type="submit" >SUBMIT</button>
+        </form></center>
+        <script>
+            function myFunction(anu1,anu2){
+                document.write(document.getElementById("anu1").value = anu1.value+" "+anu2.value);
+            }
+        </script>
+    </body>
+</html>
